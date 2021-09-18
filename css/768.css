@@ -1,6 +1,5 @@
 @media (min-width: 320.98px) and (max-width: 768.98px) {
   /* Common styles */
-
   .container {
     max-width: 868px;
     padding: 0 50px;
@@ -14,13 +13,12 @@
   }
 
   .header__logo {
-    margin-right: 0;
     width: 150px;
     height: 48px;
+    margin-right: 0;
   }
 
   /* Hero */
-
   .hero {
     padding: 162px 40px;
     margin-bottom: 80px;
@@ -42,7 +40,6 @@
   }
 
   /* About */
-
   .about {
     margin-bottom: 80px;
   }
@@ -70,12 +67,12 @@
   }
 
   .about-attention {
-    background: url("../img/about-cover_768.png") bottom no-repeat,
-      url("../img/about_768.jpg") center no-repeat;
     align-items: flex-end;
     height: 650px;
     margin: 0;
     padding: 33px 40px;
+    background: url("../img/about-cover_768.png") bottom no-repeat,
+    url("../img/about_768.jpg") center no-repeat;
   }
 
   .about-attention__info {
@@ -106,7 +103,6 @@
   }
 
   /* Work */
-
   .work {
     margin-bottom: 80px;
   }
@@ -143,7 +139,6 @@
   }
 
   /* FAQ */
-
   .faq {
     margin-bottom: 80px;
   }
@@ -162,7 +157,6 @@
   }
 
   /* Footer */
-
   .footer__container {
     flex-direction: column-reverse;
     padding: 50px;
@@ -196,11 +190,11 @@
 }
 
 @media (min-width: 320.98px) and (max-width: 664.98px) {
-  
+
   .hero {
     padding-top: 70px;
   }
-  
+
   .hero__heading {
     width: auto;
     font-size: 40px;
@@ -210,9 +204,8 @@
   }
 
   .hero__desc {
-    width: auto;
-    text-align: center;
     max-width: 380px;
+    text-align: center;
   }
 }
 

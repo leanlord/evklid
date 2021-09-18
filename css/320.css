@@ -8,9 +8,9 @@
   }
 
   .header__container {
+    justify-content: space-between;
     padding-top: 17px;
     padding-bottom: 17px;
-    justify-content: space-between;
   }
 
   /* Hero */
@@ -38,8 +38,8 @@
   }
 
   .hero__button {
-    display: block;
     position: relative;
+    display: block;
     margin: auto;
     padding: 15px 27px;
     font-size: 12px;
@@ -49,8 +49,7 @@
   /* About */
 
   .about__heading {
-    margin: 0;
-    margin-bottom: 20px;
+    margin: 0 0 20px;
     font-size: 24px;
     line-height: 29.26px;
   }

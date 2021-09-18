@@ -74,9 +74,9 @@ h4 {
 }
 
 .header__logo {
-  margin-right: auto;
   width: 224px;
   height: 72px;
+  margin-right: auto;
   background: url('../img/logo.svg') no-repeat;
   background-size: contain;
 }
@@ -115,10 +115,10 @@ h4 {
 }
 
 .header__search {
-  border: 0;
   width: 24px;
   height: 24px;
   background: url("../img/header/search.svg");
+  border: 0;
   cursor: pointer;
 }
 
@@ -197,10 +197,10 @@ h4 {
 
 .about__desc {
   max-width: 1235px;
+  margin-bottom: 50px;
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
-  margin-bottom: 50px;
 }
 
 .about__info {
@@ -234,11 +234,11 @@ h4 {
 }
 
 .about-card__heading {
+  margin-bottom: 8px;
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
   color: var(--text-black);
-  margin-bottom: 8px;
 }
 
 .about-card__desc {
@@ -257,29 +257,29 @@ h4 {
 }
 
 .about-attention__info {
-  padding: 50px;
   display: flex;
-  flex: 1 1;
   align-items: center;
+  padding: 50px;
+  flex: 1 1;
 }
 
 .about-attention__text {
   max-width: 454px;
+  margin-right: auto;
   font-size: 16px;
   line-height: 32px;
   font-weight: 700;
   color: var(--white);
-  margin-right: auto;
 }
 
 .about-attention__button {
-  padding: 17px 35px;
   align-self: center;
+  padding: 17px 35px;
+  border: 0;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
   outline: 3px solid var(--orange);
-  border: 0;
   background-color: transparent;
   color: var(--white);
   cursor: pointer;
@@ -303,15 +303,15 @@ h4 {
 
 .work__heading {
   margin-left: 2px;
-  line-height: 59px;
   margin-bottom: 48px;
+  line-height: 59px;
 }
 
 .work__list {
   display: flex;
   flex-direction: row;
-  width: 460px;
   justify-content: space-between;
+  width: 460px;
   margin-bottom: 46px;
 }
 
@@ -324,9 +324,9 @@ h4 {
 
 .work__description {
   display: flex;
-  flex: 1 1 50%;
   align-items: center;
   justify-content: space-between;
+  flex: 1 1 50%;
 }
 
 .work-description__info {
@@ -362,11 +362,11 @@ h4 {
 .work-description__details {
   padding: 21px 38px;
   margin-right: 30px;
+  border: 0;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
   background-color: var(--orange);
-  border: 0;
   color: var(--white);
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
@@ -382,10 +382,10 @@ h4 {
 
 .work-description__contract {
   padding: 20px 37px;
+  border: 1px solid var(--text-black);
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
-  border: 1px solid var(--text-black);
   background-color: var(--white);
   color: var(--text-black);
   cursor: pointer;
@@ -409,9 +409,9 @@ h4 {
 }
 
 .faq__heading {
-  line-height: 59px;
   padding-bottom: 42px;
   border-bottom: 1px solid var(--text-gray);
+  line-height: 59px;
 }
 
 .faq__list {
@@ -425,10 +425,10 @@ h4 {
   align-items: center;
   justify-content: space-between;
   min-height: 111px;
+  border-bottom: 1px solid var(--text-gray);
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;
-  border-bottom: 1px solid var(--text-gray);
   color: var(--text-black);
   cursor: pointer;
   transition: color 0.2s ease-in-out;
@@ -469,18 +469,18 @@ h4 {
 
 .footer__container {
   display: flex;
-  flex: 1 1 33.333%;
   justify-content: space-between;
+  flex: 1 1 33.333%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .footer__info {
-  width: 252px;
-  margin-right: 350px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 252px;
+  margin-right: 350px;
 }
 
 .footer__app {
@@ -560,11 +560,10 @@ h4 {
 }
 
 .footer-app__heading {
+  margin-bottom: 25px;
   line-height: 59px;
   color: var(--text-gray);
-  margin-bottom: 25px;
 }
-
 
 .footer-app__form {
   display: flex;
@@ -583,9 +582,9 @@ h4 {
   width: 100%;
   padding: 14px 24px;
   margin-bottom: 25px;
+  border: 0;
   line-height: 32px;
   background-color: #414141;
-  border: 0;
 }
 
 .footer-app__text {
@@ -601,12 +600,12 @@ h4 {
 
 .footer-form__button {
   padding: 19px 52px;
+  border: 0;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
   background-color: var(--orange);
   color: var(--white);
-  border: 0;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
 }
@@ -623,9 +622,9 @@ h4 {
 .checkbox-text {
   position: relative;
   align-items: center;
-  cursor: pointer;
   padding-left: 18px;
   color: var(--gray);
+  cursor: pointer;
 }
 
 .checkbox-text::before {
@@ -645,10 +644,10 @@ h4 {
   left: 1px;
   width: 14px;
   height: 14px;
-  opacity: 0;
   background-image: url('../img/checkbox.svg');
   background-repeat: no-repeat;
   background-position: center center;
+  opacity: 0;
 }
 
 .checkbox:checked+.checkbox-text::after {
