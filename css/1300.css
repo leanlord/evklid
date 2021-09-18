@@ -1,0 +1,17 @@
+@media (max-width: 1249.98px) {
+  .footer__text {
+    display: none;
+  }
+  .footer__app {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1024.98px) and (max-width: 1249.98px) {
+  .nav {
+    margin-right: 50px;
+  }
+  .nav__item:not(:last-child) {
+    margin-right: 70px;
+  }
+}

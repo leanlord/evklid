@@ -1,0 +1,79 @@
+@media (min-width: 220.98px) and (max-width: 321.98px) {
+  /* Header */
+
+  .header__logo {
+    width: 110px;
+    height: 35px;
+    margin: 0;
+  }
+
+  .header__container {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    justify-content: space-between;
+  }
+
+  /* Hero */
+
+  .hero {
+    padding: 60px 21px;
+    margin-bottom: 60px;
+    background-image: url("../img/header/1_320.jpg");
+  }
+
+  .hero__heading {
+    max-width: 247px;
+    margin-bottom: 6px;
+    font-size: 20px;
+    line-height: 24.38px;
+    text-align: center;
+  }
+
+  .hero__desc {
+    max-width: 247px;
+    margin-bottom: 32px;
+    font-size: 12px;
+    line-height: 14.37px;
+    text-align: center;
+  }
+
+  .hero__button {
+    display: block;
+    position: relative;
+    margin: auto;
+    padding: 15px 27px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  /* About */
+
+  .about__heading {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 29.26px;
+  }
+
+  .about__desc {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .about-attention {
+    background: url("../img/about_320.jpg")
+  }
+
+  .about__info {
+    flex-direction: column;
+  }
+
+  .about-attention__button {
+    display: none;
+  }
+
+  .about-attention__text {
+    display: none;
+  }
+}

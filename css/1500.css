@@ -1,0 +1,25 @@
+@media (min-width: 1024.98px) and (max-width: 1769.98px) {
+  .footer__info {
+    margin-right: auto;
+  }
+}
+
+
+@media (min-width: 1024.98px) and (max-width: 1439.98px) {
+  .about__info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-attention {
+    margin: 0 0 15px;
+    background-position: center;
+    background-size: auto;
+  }
+  .about-attention__info {
+    padding: 120px 40px;
+  }
+  .about-attention__text {
+    max-width: 565px;
+  }
+}
+
