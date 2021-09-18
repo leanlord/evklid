@@ -19,8 +19,8 @@
   /* Header */
 
   .hero {
-    max-width: 100%;
-    padding: 161px 77px;
+    height: auto;
+    padding: 160px 77px;
     margin-bottom: 80px;
     background-image: url("../img/header/1_low.jpg");
   }
@@ -37,9 +37,9 @@
   }
 
   .header__logo {
-    margin-right: 0;
     width: 150px;
     height: 48px;
+    margin-right: 0;
   }
 
   /* Hero */
@@ -117,11 +117,21 @@
   /* Work */
 
   .work {
-    margin-bottom: 80px;
+    margin-bottom: 78px;
+  }
+
+  .work__heading {
+    margin-left: 0;
+    margin-bottom: 50px;
   }
 
   .work__list {
     margin-bottom: 50px;
+  }
+
+  .work-description__heading {
+    margin-left: 0;
+    margin-bottom: 9px;
   }
 
   .work-description__image {
@@ -154,7 +164,7 @@
   }
 
   .faq__text {
-    width: calc(100vw - 160px);
+    width: calc(100vw - 268px);
     padding: 30px 0;
   }
 
@@ -173,20 +183,3 @@
   }
 }
 
-/*@media (min-width: 768.98px) and (max-width: 912.98px) {*/
-/*  .faq__text {*/
-/*    max-width: 706px;*/
-/*  }*/
-/*}*/
-
-/*@media (min-width: 768.98px) and (max-width: 861.98px) {*/
-/*  .faq__text {*/
-/*    max-width: 650px;*/
-/*  }*/
-/*}*/
-
-/*@media (min-width: 768.98px) and (max-width: 804.98px) {*/
-/*  .faq__text {*/
-/*    max-width: 600px;*/
-/*  }*/
-/*}*/
