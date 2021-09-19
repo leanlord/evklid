@@ -20,6 +20,7 @@
 
   /* Hero */
   .hero {
+    height: 662px;
     padding: 162px 40px;
     margin-bottom: 80px;
     background-image: url("../img/header/1_768.jpg");
@@ -41,7 +42,7 @@
 
   /* About */
   .about {
-    margin-bottom: 80px;
+    margin-bottom: 82px;
   }
 
   .about__heading {
@@ -89,27 +90,20 @@
   }
 
   .about-card {
-    padding: 35px 40px;
+    padding: 34px 40px;
   }
 
   .about-card__icon {
     width: 114px;
-    height: 99px;
-    margin-right: 16px;
+    margin-right: 15px;
   }
 
-  .about-cards {
-    align-items: center;
-  }
 
   /* Work */
   .work {
     margin-bottom: 80px;
   }
 
-  .work__heading {
-    margin-bottom: 49px;
-  }
 
   .work__list {
     width: auto;
@@ -118,6 +112,11 @@
 
   .work-description {
     flex-direction: column-reverse;
+    align-items: inherit;
+  }
+
+  .work-description__heading {
+    margin-bottom: 5px;
   }
 
   .work-description__info {
@@ -125,7 +124,7 @@
   }
 
   .work-description__desc {
-    max-width: 667px;
+    max-width: 668px;
     margin-bottom: 25px;
   }
 
@@ -134,7 +133,7 @@
     overflow: auto;
     float: right;
     width: 100%;
-    margin-bottom: 38px;
+    margin-bottom: 40px;
     background: url("../img/work/1_768.jpg") no-repeat center;
   }
 
@@ -173,6 +172,10 @@
 
   .footer-info__list {
     display: none;
+  }
+
+  .footer-info__logo {
+    margin-bottom: 16px;
   }
 }
 

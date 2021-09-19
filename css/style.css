@@ -142,7 +142,7 @@ h4 {
 }
 
 .hero__heading {
-  width: 837px;
+  max-width: 837px;
   margin-bottom: 22px;
   font-size: 70px;
   font-weight: 800;
@@ -301,8 +301,17 @@ h4 {
   margin-bottom: 100px;
 }
 
+@media (min-width: 1024.98px) {
+  .work__heading {
+    margin-left: 2px;
+  }
+
+  .work-description__heading {
+    margin-left: 2px;
+  }
+}
+
 .work__heading {
-  margin-left: 2px;
   margin-bottom: 48px;
   line-height: 59px;
 }
@@ -334,7 +343,6 @@ h4 {
 }
 
 .work-description__heading {
-  margin-left: 2px;
   margin-bottom: 10px;
   font-size: 24px;
   font-weight: 700;
@@ -663,4 +671,3 @@ h4 {
   line-height: 32px;
   color: var(--text-gray);
 }
-

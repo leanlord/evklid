@@ -18,7 +18,7 @@
 
   /* Header */
   .hero {
-    height: auto;
+    height: 668px;
     padding: 160px 77px;
     margin-bottom: 80px;
     background-image: url("../img/header/1_low.jpg");
@@ -58,7 +58,7 @@
 
   /* About */
   .about {
-    margin-bottom: 80px;
+    margin-bottom: 82px;
   }
 
   .about__heading {
@@ -136,7 +136,7 @@
   }
 
   .work-description__desc {
-    max-width: 437px;
+    max-width: calc(50vw - 75px);
     margin-bottom: 25px;
     line-height: 32px;
   }
@@ -174,6 +174,54 @@
 
   .footer-form__button {
     padding: 19px 38px;
+  }
+}
+
+/* Hero fix */
+
+@media (min-width: 768.98px) and (max-width: 954.98px) {
+  .hero__heading {
+    font-size: 55px;
+  }
+}
+
+@media (min-width: 768.98px) and (max-width: 900.98px) {
+  .hero__heading {
+    font-size: 44px;
+    line-height: 60px;
+  }
+
+  .hero__desc {
+    width: auto;
+  }
+}
+
+@media (min-width: 768.98px) and (max-width: 912.98px) {
+  .work-description__details {
+    margin-bottom: 10px;
+  }
+  .work-description__contract {
+    padding: 21px 50px;
+  }
+}
+
+@media (min-width: 768.98px) and (max-width: 930.98px) {
+  .footer__container {
+    flex-direction: column-reverse;
+    padding: 50px;
+  }
+
+  .footer-app__form {
+    width: 541px;
+    margin-bottom: 50px;
+  }
+
+  .footer-form__button {
+    padding: 19px 38px;
+  }
+
+  .footer-info__list {
+    margin-bottom: 40px;
   }
 }
 
