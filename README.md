@@ -1,4 +1,4 @@
-# Evklid website
+# Evklid website [not ready]
 ### The second project.
 **URL: https://leanlord.github.io/evklid/**  
 **BEM, adaptive [3840px to 320px], PixelPerfect, JS [swiper, tabs, accordion], semantic HTML, accessible, CSS codestyle**  
